@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light And Dark Mode</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Dark Mode switch -->
+     <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+     </div>
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- home section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Custom Title Here</h1>
+            <h2>Welcome to the Website !</h2>
+        </div>
+    </section>
+    <!-- about section -->
+    <section id="about">
+        <h1>Undraw Illustrations</h1>
+        <div class="about-container">
+            <div class="image-container">
+                <h2>Web Innavation</h2>
+                <img src="./02-pictures-svg/light.svg.1.svg" alt="computer" id="image1">
+            </div>
+            <div class="image-container">
+                <h2>Problem Solving</h2>
+                <img src="./02-pictures-svg/light.svg.2.svg" alt="new idea" id="image2">
+            </div>
+            <div class="image-container">
+                <h2>High Concept</h2>
+                <img src="./02-pictures-svg/light.svg.3.svg" alt="Idea" id="image3">
+            </div>
+
+        </div>
+    </section>
+    <!-- project section -->
+    <section id="projects">
+        <h1>Button</h1>
+        <div class="buttons">
+            <button class="primary">primary</button>
+            <button class="secondary">secondary</button>
+            <button class="primary" disabled>Disabled</button>
+            <button class="outline">Outline</button>
+            <button class="secondary outline">Alt Outline</button>
+            <button class="outline" disabled>Disable</button>
+        </div>
+        <div class="text-box" id="text-box">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nesciunt temporibus optio dolor,
+                excepturi eos beatae itaque facilis impedit eveniet eligendi et eius officia quod obcaecati laboriosam
+                commodi quasi Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, beatae.</p>
+        </div>
+
+    </section>
+
+
+    <!-- contact section -->
+    <section id="contact">
+        <div class="social-icons">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-codepen"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-medium"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </section> 
+
+
+
+    <!-- script.js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
